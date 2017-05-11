@@ -88,6 +88,7 @@ public class FoodEnetity extends BaseObservable implements Parcelable{
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         intent.putExtra("foodEntity",FoodEnetity.this);
         context.startActivity(intent);
+
     }
 
     @Bindable
