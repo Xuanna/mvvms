@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/shape_border"
+    android:layout_height="match_parent">
+<ListView
+    android:background="#FFF"
+    android:id="@+id/listview"
+    android:dividerHeight="0.5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+</LinearLayout>
