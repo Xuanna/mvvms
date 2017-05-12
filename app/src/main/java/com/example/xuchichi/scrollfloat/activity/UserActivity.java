@@ -18,7 +18,6 @@ public class UserActivity extends AppCompatActivity {
        UserLayoutBinding binding = DataBindingUtil.setContentView(this, R.layout.user_layout);
         UserEntity user = new UserEntity();
         user.setAge(2);
-
         user.setUsername("zhangsan");
         user.setNickname("张三");
         user.setImageUrl("http://img2.cache.netease.com/auto/2016/7/28/201607282215432cd8a.jpg");
